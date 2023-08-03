@@ -12,8 +12,8 @@ Trait JsonTrait
      * @author zxf
      * @date   2020年5月21日
      * @param  mixed $value
-     * @param  int $options
-     * @param  int $depth
+     * @param  integer $options
+     * @param  integer $depth
      * @return string
      */
     public static function encode($value, int $options = 0, int $depth = 512)
